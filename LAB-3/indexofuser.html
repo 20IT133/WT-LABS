@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indexofuser</title>
+    <link href="indexofuser.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container flex">
+        <img
+        src="logo.png"
+        class="img"
+        alt="Image Of Logo"
+        height="100px"
+        width="100px"
+      />
+        <h4 class="head">Let's Vaccinated Together</h4>
+        <ul class="unorderd">
+          <li><a href="" class="consult">Consult</a></li>
+          <li><a href="" class="contactus">contact Us</a></li>
+          <li>
+            <a
+              href="https://vaccinatenoww.blogspot.com/2021/11/VaccineManagementSystem.html"
+              class="Blog"
+              >Blog</a
+            >
+            <a href="information.html">Information</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <h2 class="vaccine"><b>Search Your Nearest Vaccination Center</b></h2>
+    <section class="search">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h3>Search By Pin</h3>
+          <label>Pin:</label><br>
+          <input type="text" name="pin" placeholder="Enter Your Pin" required/>
+          <br />
+          <label>Select Vaccine:</label><br>
+          <select name="Vaccine Name:" id="vaccine_name" class="vaccine_name">
+            <option value="Covishield">Covisheild</option>
+            <option value="Covaxin">Covaxin</option>
+          </select>
+          <br>
+          <a href="searchhospital.html">
+          <button class="pin">Submit</button>
+        </a>
+        </div>
+        <div class="showcase-form card">
+          <form action="searchhospital.html">
+            <h3>Search By City</h3>
+            <label>State Name:</label><br>
+          <input type="text" name="Statename" placeholder="Enter Name of State" required/>
+          <br />
+          <label>City Name:</label><br>
+          <input type="text" name="Cityname" placeholder="Enter Name of City" required/>
+          <br />
+          <label>Select Vaccine:</label><br>
+          <select name="Vaccine Name:" id="vaccine_name" class="vaccine_name">
+            <option value="Covishield">Covisheild</option>
+            <option value="Covaxin">Covaxin</option>
+          </select>
+          <br>
+          <input type="submit" class="pin">
+        </div>
+        </div>
+    </section>
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-heading text-center my-1">
+          Welcome to the best platform for the Vaccination.
+        </h3>
+        <div class="grid grid-3 text-center my-4">
+          <div>
+            <i class="fas fa-syringe"></i>
+              <h2>
+                10,45,64,000+
+              </h2>
+              <p class="text-secondery">
+                Vaccination
+              </p>
+              </div>
+              <div>
+                <i class="fas fa-sign-in-alt"></i>
+                  <h2>
+                    10,25,000+
+                  </h2>
+                  <p class="text-secondery">
+                    Daily Login
+                  </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer bg-dard py-s">
+      <div class="container grid grid-4">
+        <div>
+          <h1>Management</h1>
+          <p>Copyright &copy; 2021</p>
+        </div>
+        <div>
+        <nav>
+          <ul class="order">
+            <li><a href="">About-us</a></li>
+            <li><a href="">Quesion-Answer</a></li>
+            <li><a href="">Problem:Need-Solution</a></li>
+          </ul>
+        </nav></div>
+        <div class="social">
+          <a href=""><i class="fab fa-github fa-2x"></i></a>
+          <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+          <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+          <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

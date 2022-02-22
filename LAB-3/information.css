@@ -1,0 +1,238 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  /* background-image: url(back2.png); */
+}
+.head {
+  color: whitesmoke;
+  margin-right: 30%;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+h4 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+.navbar {
+  background-color: black;
+  height: 100px;
+  border: 0px solid black;
+  border-radius: 5px;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar .flex {
+  justify-content: space-between;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0px 40px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.navbar a {
+  color: whitesmoke;
+  padding: 10px;
+  margin: 0 5px;
+}
+.search {
+  height: 400px;
+  /* background-image: url(back2.png); */
+  position: relative;
+  font-size: 20px;
+}
+.grid {
+  margin-top: 30px;
+  margin-left: 25%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100%;
+  gap: 20px;
+}
+.search .grid {
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+.pin {
+  display: inline-block;
+  padding: 8px 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: whitesmoke;
+  border-radius: 5px;
+}
+.fa-sign-in-alt {
+  size: 10px;
+}
+.stats {
+  padding-top: 25px;
+  height: 280px;
+}
+.text-center {
+  text-align: center;
+}
+.grid-3 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-4 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.stats {
+  border: black solid 4px;
+  background-color: rgb(7, 7, 7);
+  color: whitesmoke;
+}
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 1.5rem 0;
+}
+.my-3 {
+  margin: 2rem 0;
+}
+.my-4 {
+  margin: 3rem 0;
+}
+.my-5 {
+  margin: 4rem 0;
+}
+.m-1 {
+  margin: 1rem 0;
+}
+.m-2 {
+  margin: 1.5rem 0;
+}
+.m-3 {
+  margin: 2rem 0;
+}
+.m-4 {
+  margin: 3rem 0;
+}
+.m-5 {
+  margin: 4rem 0;
+}
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 1.5rem 0;
+}
+.py-3 {
+  padding: 2rem 0;
+}
+.py-4 {
+  padding: 3rem 0;
+}
+.py-5 {
+  padding: 4rem 0;
+}
+.p-1 {
+  padding: 1rem 0;
+}
+.p-2 {
+  padding: 1.5rem 0;
+}
+.p-3 {
+  padding: 2rem 0;
+}
+.p-4 {
+  padding: 3rem 0;
+}
+.p-5 {
+  padding: 4rem 0;
+}
+.stats-heading {
+  max-width: 550px;
+  margin: auto;
+}
+.stats .grid p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .grid,
+  .showcase .grid,
+  .search .grid,
+  .stats .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .showcase-form {
+    height: auto;
+  }
+  .showcase-text {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .showcase-form {
+    justify-self: center;
+    margin: auto;
+  }
+  .stats {
+    border: black solid 4px;
+    background-color: rgb(7, 7, 7);
+    color: whitesmoke;
+  }
+}
+@media (max-width: 500px) {
+  .navbar {
+    height: 110px;
+  }
+  .navbar .flex {
+    flex-direction: column;
+  }
+  .navbar ul {
+    padding: 10px;
+    background-color: black;
+  }
+  .footer {
+    background-color: black;
+  }
+  .stats {
+    border: black solid 4px;
+    background-color: rgb(7, 7, 7);
+    color: whitesmoke;
+  }
+}
+.order a {
+  color: black;
+}
+.social a {
+  color: black;
+  padding: 0 5%;
+}
+/* .foot {
+  align-items: center;
+} */
+.information {
+  border: black solid 3px;
+}
+.information p {
+  padding: 5px 5px;
+  margin: 5px 5px;
+}
+.information label {
+  font-weight: bold;
+}
+.infohead {
+  text-align: center;
+}

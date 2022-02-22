@@ -1,0 +1,38 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background: url("Login-Signup.png");
+  background-position: top;
+  height: 100%;
+  width: 100%;
+}
+label {
+  width: 100px;
+  display: inline-block;
+  margin: 8px;
+}
+.info {
+  width: 350px;
+  height: 10%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  position: absolute;
+  color: rgb(19, 18, 18);
+}
+.heading {
+  margin-left: 425px;
+}
+.button {
+  display: inline-block;
+  padding: 8px 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: whitesmoke;
+  border-radius: 5px;
+  width: 100px;
+  margin-right: 35px;
+}
+.name {
+  width: 200px;
+}

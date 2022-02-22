@@ -1,0 +1,46 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background: url("Login-Signup.png");
+  background-position: top;
+  height: 100%;
+  width: 100%;
+}
+
+label {
+  width: 100px;
+  display: inline-block;
+  margin: 8px;
+}
+.info {
+  width: 350px;
+  height: 10%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  position: absolute;
+  color: rgb(19, 18, 18);
+}
+.heading {
+  margin-left: 475px;
+}
+.button {
+  display: inline-block;
+  padding: 8px 15px;
+  margin-top: 10px;
+  margin-right: 50px;
+  cursor: pointer;
+  border: whitesmoke;
+  border: black solid 1px;
+  border-radius: 5px;
+  width: 100px;
+}
+.name {
+  width: 200px;
+}
+span {
+  transform: translate(0, -50%);
+  margin-right: 20px;
+  cursor: pointer;
+  position: relative;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="signupforuse.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="heading">
+      <h1>
+        <b><u>Sign Up For User</u></b>
+      </h1>
+    </header>
+    <div class="info">
+      <form action="userlogin.html">
+        <label>Name:</label>
+        <input
+          class="name"
+          type="text"
+          name="name"
+          placeholder="Firstname Middlename Surname"
+          required
+        /><br />
+        <label>Age:</label>
+        <input type="number" name="age" placeholder="age" required /><br />
+        <label>Gender:</label>
+        <input type="radio" name="Gender" value="Male" />Male
+        <input type="radio" name="Gender" value="Female" />Female
+        <input type="radio" name="Gender" value="Other" />Other
+        <br />
+        <label>Address:</label>
+        <input
+          type="text"
+          name="address"
+          placeholder="Address of user"
+          required
+        />
+        <br />
+        <label>Birth-date:</label>
+        <input type="date" name="date" placeholder="birth-date" required />
+        <br />
+        <label>Contact No:</label>
+        <input
+          type="text"
+          name="contect no"
+          placeholder="Contact No"
+          required
+        />
+        <br />
+        <label>E-mail:</label>
+        <input type="email" name="e-mail" placeholder="e-mail" required />
+        <br />
+        <label>Aadhar No:</label>
+        <input
+          type="text"
+          name="aadharno"
+          placeholder="enter your aadhar card no"
+          required
+        />
+        <br />
+        <label>Password:</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter Password"
+          required
+        />
+        <script>
+          var state = false;
+          function toggle() {
+            if (state) {
+              document
+                .getElementById("password")
+                .setAttribute("type", "password");
+              state = false;
+            } else {
+              document.getElementById("password").setAttribute("type", "text");
+              state = true;
+            }
+          }
+        </script>
+        <br />
+        <label>Confirm Password:</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Confirm Password"
+          required
+        />
+        <script>
+          var state = false;
+          function toggle() {
+            if (state) {
+              document
+                .getElementById("password")
+                .setAttribute("type", "password");
+              state = false;
+            } else {
+              document.getElementById("password").setAttribute("type", "text");
+              state = true;
+            }
+          }
+        </script>
+        <br />
+        <input
+          class="button"
+          type="submit"
+          name="submit"
+          value="submit"
+          placeholder="submit button"
+        />
+        <input
+          class="button"
+          type="reset"
+          name="reset"
+          value="reset"
+          placeholder="reset
+        button"
+        />
+      </form>
+    </div>
+  </body>
+</html>

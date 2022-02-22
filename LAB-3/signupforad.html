@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link href="signupforad.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="heading">
+      <h1>
+        <b><u>Sign Up For Administrator</u></b>
+      </h1>
+    </header>
+    <div class="info">
+      <form action="administratorlogin.html">
+        <label>Hospital Name:</label>
+        <input
+          class="name"
+          type="text"
+          name="name"
+          placeholder="Name of Hospital"
+          required
+        /><br />
+        <label>Address:</label>
+        <input
+          type="text"
+          name="address"
+          placeholder="Address of user"
+          required
+        />
+        <br />
+        <label>Contact No:</label>
+        <input
+          type="text"
+          name="contect no"
+          placeholder="Contact No"
+          required
+        />
+        <br />
+        <label>E-mail:</label>
+        <input type="email" name="e-mail" placeholder="e-mail" required />
+        <br />
+        <br />
+        <label>Password:</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter Password"
+          required
+        />
+        <script>
+          var state = false;
+          function toggle() {
+            if (state) {
+              document
+                .getElementById("password")
+                .setAttribute("type", "password");
+              state = false;
+            } else {
+              document.getElementById("password").setAttribute("type", "text");
+              state = true;
+            }
+          }
+        </script>
+        <br />
+        <!-- <h5 class="password">
+          [Password must have a alphanumeric number.Password must have atleast
+          one Digit(0-9). Password must have atleast one Upper case(A-Z).]
+        </h5> -->
+        <label>Confirm Password:</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Confirm Password"
+          required
+        />
+        <script>
+          var state = false;
+          function toggle() {
+            if (state) {
+              document
+                .getElementById("password")
+                .setAttribute("type", "password");
+              state = false;
+            } else {
+              document.getElementById("password").setAttribute("type", "text");
+              state = true;
+            }
+          }
+        </script>
+        <br />
+        <input
+          class="button"
+          type="submit"
+          name="submit"
+          value="submit"
+          placeholder="submit button"
+        />
+        <input
+          class="button"
+          type="reset"
+          name="reset"
+          value="reset"
+          placeholder="reset
+        button"
+        />
+      </form>
+    </div>
+  </body>
+</html>

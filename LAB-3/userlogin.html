@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Userr_Login</title>
+    <link href="userlogin.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="login">
+      <h3><b><u>User Login</u></b></h1>
+      <form action="indexofuser.html">
+        <p>Aadhar No</p>
+        <input type="text" name="Aadhar no" placeholder="Aadhar card No of user" required />
+        <p>Contact No</p>
+        <input type="text" name="Contect no" placeholder="Contect No of user" required/>
+        <p>Password</p>
+        <input type="password" name="password" placeholder="Enter password" required/>
+        <script>
+          var state = false;
+          function toggle() {
+            if (state) {
+              document
+                .getElementById("password")
+                .setAttribute("type", "password");
+              state = false;
+            } else {
+              document.getElementById("password").setAttribute("type", "text");
+              state = true;
+            }
+          }
+        </script>
+        <a href="forgotpassword.html" class="forgot">Forgot password!</a>
+        <input type="submit" class="submit" name="Sign in" placeholder="">
+      </form>
+      <p class="newuser">Does Not Have Any Acconunt?</p>
+      <a href="signupforuse.html" class="signup">Sign Up!</a>
+    </div>
+  </body>
+</html>
